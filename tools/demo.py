@@ -25,7 +25,7 @@ np.random.seed(123)
 # args
 parse = argparse.ArgumentParser()
 parse.add_argument('--config', dest='config', type=str, default='configs/bisenetv2.py',)
-parse.add_argument('--weight-path', type=str, default='./res/model_final.pth',)
+parse.add_argument('--weight-path', type=str, default='./res/model_final_v2_city.pth',)
 parse.add_argument('--img-path', dest='img_path', type=str, default='./example.png',)
 args = parse.parse_args()
 cfg = set_cfg_from_file(args.config)

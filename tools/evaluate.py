@@ -432,7 +432,7 @@ def evaluate(cfg, weight_pth):
 def parse_args():
     parse = argparse.ArgumentParser()
     parse.add_argument('--weight-path', dest='weight_pth', type=str,
-                       default='model_final.pth',)
+                       default='./res/model_final_v2_city.pth',)
     parse.add_argument('--config', dest='config', type=str,
             default='configs/bisenetv2.py',)
     return parse.parse_args()

@@ -22,7 +22,7 @@ torch.set_grad_enabled(False)
 # args
 parse = argparse.ArgumentParser()
 parse.add_argument('--config', dest='config', type=str, default='configs/bisenetv2.py',)
-parse.add_argument('--weight-path', type=str, default='./res/model_final.pth',)
+parse.add_argument('--weight-path', type=str, default='./res/model_final_v2_city.pth',)
 parse.add_argument('--input', dest='input', type=str, default='./example.mp4',)
 parse.add_argument('--output', dest='output', type=str, default='./res.mp4',)
 args = parse.parse_args()
